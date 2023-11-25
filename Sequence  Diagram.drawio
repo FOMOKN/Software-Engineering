@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T17:23:27.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="nGveGVCsaYkFe44k8n9C" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T17:24:41.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="2iVF94q6Vw98amrI-Tfo" version="22.1.4" type="github">
   <diagram name="第 1 页" id="NIWxXK1TMyFCqn1yiirt">
     <mxGraphModel dx="996" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16olr8pQFl9PobuFe9gn-49" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;updateStock()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="16olr8pQFl9PobuFe9gn-2" source="16olr8pQFl9PobuFe9gn-44" target="16olr8pQFl9PobuFe9gn-48">
+        <mxCell id="16olr8pQFl9PobuFe9gn-49" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;updateStock()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="16olr8pQFl9PobuFe9gn-2" source="16olr8pQFl9PobuFe9gn-44" target="16olr8pQFl9PobuFe9gn-48">
           <mxGeometry x="0.2895" width="80" relative="1" as="geometry">
             <mxPoint x="370" y="260" as="sourcePoint" />
             <mxPoint x="450" y="260" as="targetPoint" />
