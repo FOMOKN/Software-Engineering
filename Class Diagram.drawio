@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T14:34:21.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="WQ6WBjGsC-PWVwlwwnUT" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T14:34:36.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="jJ2hAnmUgul5xUB0LkZE" version="22.1.4" type="github">
   <diagram name="第 1 页" id="TqKDPVgios2m9M21Ib9q">
     <mxGraphModel dx="996" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -32,7 +32,9 @@
           <mxGeometry y="78" width="210" height="42" as="geometry" />
         </mxCell>
         <mxCell id="pDn7NoU3bp8SHhcb_bqM-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Prescription&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-1">
-          <mxGeometry x="30" y="280" width="160" height="200" as="geometry" />
+          <mxGeometry x="30" y="280" width="160" height="200" as="geometry">
+            <mxRectangle x="30" y="280" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pDn7NoU3bp8SHhcb_bqM-22" value="+Prescription ID&lt;br&gt;-Patient ID&lt;br style=&quot;font-size: 14px;&quot;&gt;+Patient Symptoms&lt;br style=&quot;font-size: 14px;&quot;&gt;+Medication lists&lt;br style=&quot;font-size: 14px;&quot;&gt;+Medication dosages&lt;br&gt;+IssueDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-21">
           <mxGeometry y="26" width="160" height="104" as="geometry" />
