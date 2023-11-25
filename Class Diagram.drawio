@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T14:00:23.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="V2vjZQ_czRuEkuZuFy5B" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T14:02:14.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="ahVsOY4Kr2IZQphs0sq5" version="22.1.4" type="github">
   <diagram name="第 1 页" id="TqKDPVgios2m9M21Ib9q">
     <mxGraphModel dx="996" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="pDn7NoU3bp8SHhcb_bqM-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-25">
           <mxGeometry y="70" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="pDn7NoU3bp8SHhcb_bqM-28" value="+checkAvailability(medicationID)&lt;br&gt;#updateStock() (Protected)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-25">
+        <mxCell id="pDn7NoU3bp8SHhcb_bqM-28" value="+checkAvailability(medicationID)&lt;br&gt;#updateStock(medicationID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-25">
           <mxGeometry y="78" width="210" height="42" as="geometry" />
         </mxCell>
         <mxCell id="pDn7NoU3bp8SHhcb_bqM-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Prescription&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-1">
@@ -44,16 +44,16 @@
           <mxGeometry y="138" width="160" height="62" as="geometry" />
         </mxCell>
         <mxCell id="pDn7NoU3bp8SHhcb_bqM-17" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;Pharmacist&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-1">
-          <mxGeometry x="40" y="80" width="250" height="190" as="geometry" />
+          <mxGeometry x="40" y="80" width="260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="pDn7NoU3bp8SHhcb_bqM-18" value="+ID&lt;br&gt;-Name&lt;br style=&quot;font-size: 14px;&quot;&gt;+Doctor&#39;s qualification" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-17">
-          <mxGeometry y="26" width="250" height="64" as="geometry" />
+          <mxGeometry y="26" width="260" height="64" as="geometry" />
         </mxCell>
         <mxCell id="pDn7NoU3bp8SHhcb_bqM-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-17">
-          <mxGeometry y="90" width="250" height="8" as="geometry" />
+          <mxGeometry y="90" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="pDn7NoU3bp8SHhcb_bqM-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;+dispenseMedication(prescriptionID)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/font&gt;+verifyPrescription(prescriptionID)&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+consultPrescriptionHistory(patientID)&lt;br&gt;+updateMedicationInventory(medicationID, quantity)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-17">
-          <mxGeometry y="98" width="250" height="92" as="geometry" />
+        <mxCell id="pDn7NoU3bp8SHhcb_bqM-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;+dispenseMedication(prescriptionID)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/font&gt;+verifyPrescription(prescriptionID)&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+consultPrescriptionHistory(patientID)&lt;br&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-17">
+          <mxGeometry y="98" width="260" height="62" as="geometry" />
         </mxCell>
         <mxCell id="pDn7NoU3bp8SHhcb_bqM-33" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Pharmacy&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDn7NoU3bp8SHhcb_bqM-1">
           <mxGeometry x="355" width="100" height="40" as="geometry" />
