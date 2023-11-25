@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T08:48:53.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="NhW0bpH6r1XMhRgMMDR5" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T10:43:16.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="YfKxdWfd4P4TgG_i_Vra" version="22.1.4" type="github">
   <diagram id="mKLGtlqu1TJgX5sNCrC6" name="第 1 页">
     <mxGraphModel dx="996" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -170,8 +170,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5VM5NhOEDhN4FYJ91efE-1" value="Activity Diagram" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
-          <mxGeometry x="40" width="740" height="600" as="geometry" />
+        <mxCell id="5VM5NhOEDhN4FYJ91efE-1" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Prescription Verification&lt;/b&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="1" vertex="1">
+          <mxGeometry x="40" width="1020" height="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
