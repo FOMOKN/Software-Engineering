@@ -1,17 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T15:26:24.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="K20a9O5DgMW_DCNaspOq" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T15:49:15.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="X487MKUVtDKeJ_UJ94pC" version="22.1.4" type="github">
   <diagram name="第 1 页" id="NIWxXK1TMyFCqn1yiirt">
     <mxGraphModel dx="996" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="16olr8pQFl9PobuFe9gn-1" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Pharmacist&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="110" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="16olr8pQFl9PobuFe9gn-2" value="Sequence Diagram&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
           <mxGeometry x="100" y="50" width="730" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="16olr8pQFl9PobuFe9gn-3" value="Validating prescriptions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=1" vertex="1" parent="16olr8pQFl9PobuFe9gn-2">
+        <mxCell id="16olr8pQFl9PobuFe9gn-3" value="Validating a prescription" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=1" vertex="1" parent="16olr8pQFl9PobuFe9gn-2">
           <mxGeometry x="280" y="20" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-6" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;aPrescription&lt;/b&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=center;" vertex="1" parent="16olr8pQFl9PobuFe9gn-2">
+          <mxGeometry x="220" y="70" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-7" value="State1 inv." style="rounded=1;dashed=0;point=[];connectable=0;targetShapes=umlLifeline;html=1;" vertex="1" parent="16olr8pQFl9PobuFe9gn-6">
+          <mxGeometry x="10" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-8" value="{State2 inv.}" style="text;align=center;point=[];connectable=0;targetShapes=umlLifeline;html=1;" vertex="1" parent="16olr8pQFl9PobuFe9gn-6">
+          <mxGeometry y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-9" value="Lifeline1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="16olr8pQFl9PobuFe9gn-2">
+          <mxGeometry x="380" y="70" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-10" value="State1 inv." style="rounded=1;dashed=0;point=[];connectable=0;targetShapes=umlLifeline;html=1;" vertex="1" parent="16olr8pQFl9PobuFe9gn-9">
+          <mxGeometry x="10" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-11" value="{State2 inv.}" style="text;align=center;point=[];connectable=0;targetShapes=umlLifeline;html=1;" vertex="1" parent="16olr8pQFl9PobuFe9gn-9">
+          <mxGeometry y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-12" value="Lifeline1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="16olr8pQFl9PobuFe9gn-2">
+          <mxGeometry x="540" y="70" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-13" value="State1 inv." style="rounded=1;dashed=0;point=[];connectable=0;targetShapes=umlLifeline;html=1;" vertex="1" parent="16olr8pQFl9PobuFe9gn-12">
+          <mxGeometry x="10" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-14" value="{State2 inv.}" style="text;align=center;point=[];connectable=0;targetShapes=umlLifeline;html=1;" vertex="1" parent="16olr8pQFl9PobuFe9gn-12">
+          <mxGeometry y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16olr8pQFl9PobuFe9gn-1" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Pharmacist&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="16olr8pQFl9PobuFe9gn-2">
+          <mxGeometry x="80" y="70" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
