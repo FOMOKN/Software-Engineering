@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T17:20:47.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="RRqny4PMVEvwjzEVyHOX" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T17:24:21.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="hG6JyJEWaXW35HPqsm8H" version="22.1.4" type="github">
   <diagram id="mKLGtlqu1TJgX5sNCrC6" name="第 1 页">
     <mxGraphModel dx="2165" dy="1396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
         </mxCell>
         <mxCell id="hgjZqfxA5O2Uas9LMyqZ-20" value="Approval of prescriptions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontSize=14;" parent="hgjZqfxA5O2Uas9LMyqZ-18" vertex="1" connectable="0">
           <mxGeometry x="-0.35" y="-3" relative="1" as="geometry">
-            <mxPoint x="3" y="37" as="offset" />
+            <mxPoint x="3" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hgjZqfxA5O2Uas9LMyqZ-7" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" parent="5VM5NhOEDhN4FYJ91efE-1" vertex="1">
@@ -157,11 +157,11 @@
             <mxPoint x="195" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rF_avYMDpHW5X6vWjK1u-7" value="Pharmacist" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="5VM5NhOEDhN4FYJ91efE-1" vertex="1">
-          <mxGeometry x="30" y="60" width="300" height="630" as="geometry" />
-        </mxCell>
         <mxCell id="rF_avYMDpHW5X6vWjK1u-14" value="&lt;b style=&quot;border-color: var(--border-color); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Hospital Management System&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="5VM5NhOEDhN4FYJ91efE-1" vertex="1">
           <mxGeometry x="540" y="60" width="290" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="rF_avYMDpHW5X6vWjK1u-7" value="Pharmacist" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="5VM5NhOEDhN4FYJ91efE-1" vertex="1">
+          <mxGeometry x="35" y="60" width="300" height="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
