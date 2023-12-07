@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T05:36:43.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P--fY7PvDtITplTyxy4j" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T06:15:15.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Nf9V0eUYlKinSBWygnzD" version="22.1.5" type="github">
   <diagram name="第 1 页" id="TqKDPVgios2m9M21Ib9q">
     <mxGraphModel dx="2913" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -261,7 +261,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cErcUJjnt0wg8BuDWPs1-9" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Lab&lt;/font&gt;&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="cErcUJjnt0wg8BuDWPs1-8" vertex="1">
-          <mxGeometry x="150" y="670" width="810" height="550" as="geometry" />
+          <mxGeometry x="150" y="670" width="810" height="560" as="geometry" />
         </mxCell>
         <mxCell id="DnJ5rgwLd0piwWr_8N8r-21" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="cErcUJjnt0wg8BuDWPs1-9" vertex="1">
           <mxGeometry x="517" y="328" width="30" height="30" as="geometry" />
@@ -278,17 +278,17 @@
         <mxCell id="DnJ5rgwLd0piwWr_8N8r-31" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cErcUJjnt0wg8BuDWPs1-9" vertex="1">
           <mxGeometry x="172" y="289" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DnJ5rgwLd0piwWr_8N8r-5" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Result of testing&lt;/span&gt;&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="cErcUJjnt0wg8BuDWPs1-9" vertex="1">
-          <mxGeometry x="70" y="330" width="210" height="210" as="geometry" />
+        <mxCell id="DnJ5rgwLd0piwWr_8N8r-5" value="Test management" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="cErcUJjnt0wg8BuDWPs1-9" vertex="1">
+          <mxGeometry x="70" y="330" width="210" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="DnJ5rgwLd0piwWr_8N8r-6" value="-resultID&lt;br&gt;-requestID&lt;br style=&quot;font-size: 14px;&quot;&gt;-patientID&lt;br&gt;-equipmentID&lt;br&gt;-technicianID&lt;br&gt;-testItems&lt;br style=&quot;font-size: 14px;&quot;&gt;-testResult&lt;br&gt;-resultDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="DnJ5rgwLd0piwWr_8N8r-5" vertex="1">
+        <mxCell id="DnJ5rgwLd0piwWr_8N8r-6" value="-testID&lt;br&gt;-requestID&lt;br style=&quot;font-size: 14px;&quot;&gt;-patientID&lt;br&gt;-equipmentID&lt;br&gt;-technicianID&lt;br&gt;-testItems&lt;br style=&quot;font-size: 14px;&quot;&gt;-testResult&lt;br&gt;-testDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="DnJ5rgwLd0piwWr_8N8r-5" vertex="1">
           <mxGeometry y="26" width="210" height="144" as="geometry" />
         </mxCell>
         <mxCell id="DnJ5rgwLd0piwWr_8N8r-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="DnJ5rgwLd0piwWr_8N8r-5" vertex="1">
           <mxGeometry y="170" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DnJ5rgwLd0piwWr_8N8r-8" value="-publishResult(requestID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="DnJ5rgwLd0piwWr_8N8r-5" vertex="1">
-          <mxGeometry y="178" width="210" height="32" as="geometry" />
+        <mxCell id="DnJ5rgwLd0piwWr_8N8r-8" value="-publishResult(testID)&lt;br&gt;-createTest(testID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="DnJ5rgwLd0piwWr_8N8r-5" vertex="1">
+          <mxGeometry y="178" width="210" height="42" as="geometry" />
         </mxCell>
         <mxCell id="DnJ5rgwLd0piwWr_8N8r-1" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;Requests for testing&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="cErcUJjnt0wg8BuDWPs1-8" vertex="1">
           <mxGeometry x="690" y="710" width="210" height="200" as="geometry" />
@@ -323,7 +323,7 @@
         <mxCell id="DnJ5rgwLd0piwWr_8N8r-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="DnJ5rgwLd0piwWr_8N8r-13" vertex="1">
           <mxGeometry y="120" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DnJ5rgwLd0piwWr_8N8r-16" value="-login(username, password)&lt;br&gt;-verifyRequest(doctorID, requestID)&lt;br&gt;-checkPaymentStatus(requestID)&lt;br style=&quot;font-size: 14px;&quot;&gt;-logout()&lt;br&gt;&lt;div&gt;-processTestRequest(testID)&lt;/div&gt;-recordResults(requestID, resultsData)&lt;br&gt;-specifyReason(requestID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="DnJ5rgwLd0piwWr_8N8r-13" vertex="1">
+        <mxCell id="DnJ5rgwLd0piwWr_8N8r-16" value="-login(username, password)&lt;br&gt;-verifyRequest(doctorID, requestID)&lt;br&gt;-checkPaymentStatus(requestID)&lt;br style=&quot;font-size: 14px;&quot;&gt;-logout()&lt;br&gt;&lt;div&gt;-processTestRequest(testID)&lt;/div&gt;-recordResults(testID, testData)&lt;br&gt;-specifyReason(requestID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="DnJ5rgwLd0piwWr_8N8r-13" vertex="1">
           <mxGeometry y="128" width="230" height="122" as="geometry" />
         </mxCell>
         <mxCell id="DnJ5rgwLd0piwWr_8N8r-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=0;startSize=24;" parent="cErcUJjnt0wg8BuDWPs1-8" source="DnJ5rgwLd0piwWr_8N8r-16" target="DnJ5rgwLd0piwWr_8N8r-10" edge="1">
