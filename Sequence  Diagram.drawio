@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T03:16:34.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="AZbYCvgvAFIW8ElFeSy3" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T03:16:49.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Hz0NnuCtAuetz2_IKwX9" version="22.1.5" type="github">
   <diagram name="第 1 页" id="NIWxXK1TMyFCqn1yiirt">
     <mxGraphModel dx="996" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="16olr8pQFl9PobuFe9gn-2" value="Sequence Diagram&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="740" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="16olr8pQFl9PobuFe9gn-3" value="Validating a prescription" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="16olr8pQFl9PobuFe9gn-2" vertex="1">
-          <mxGeometry x="280" y="20" width="170" height="30" as="geometry" />
+        <mxCell id="16olr8pQFl9PobuFe9gn-3" value="Validate a prescription" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="16olr8pQFl9PobuFe9gn-2" vertex="1">
+          <mxGeometry x="285" y="20" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="16olr8pQFl9PobuFe9gn-6" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Prescription&lt;/b&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=center;" parent="16olr8pQFl9PobuFe9gn-2" vertex="1">
           <mxGeometry x="240" y="70" width="100" height="430" as="geometry" />
