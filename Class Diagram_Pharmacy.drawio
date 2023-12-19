@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T06:53:47.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="UB6c1lgWxkipBdEUI2Ct" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T06:54:56.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="JV3CbDXDZgIft20Zb05S" version="22.1.11" type="github">
   <diagram name="第 1 页" id="IFkGXs1P1i4UGobIEqxa">
     <mxGraphModel dx="2165" dy="1396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-1" value="Medication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="320" width="460" height="240" as="geometry" />
+          <mxGeometry x="320" width="460" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-2" value="-medicationID:&amp;nbsp;int&lt;br&gt;-medicationName: varchar&lt;br style=&quot;font-size: 14px;&quot;&gt;-medicationDosageForm: varchar&lt;br&gt;&amp;nbsp;(e.g., tablet, capsule, liquid)&lt;br style=&quot;font-size: 14px;&quot;&gt;-medicationExpirationDate: date&lt;br&gt;-medicationSideEffects: varchar&lt;br&gt;-medicationInteractions: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="cFKn5J2XUhD-Bvyqx_Qe-1" vertex="1">
-          <mxGeometry y="26" width="460" height="124" as="geometry" />
+        <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-2" value="-medicationID:&amp;nbsp;int&lt;br&gt;-medicationName: varchar&lt;br style=&quot;font-size: 14px;&quot;&gt;-medicationDosageForm: varchar (e.g., tablet, capsule, liquid)&lt;br style=&quot;font-size: 14px;&quot;&gt;-medicationExpirationDate: date&lt;br&gt;-medicationSideEffects: varchar&lt;br&gt;-medicationInteractions: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="cFKn5J2XUhD-Bvyqx_Qe-1" vertex="1">
+          <mxGeometry y="26" width="460" height="114" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="cFKn5J2XUhD-Bvyqx_Qe-1" vertex="1">
-          <mxGeometry y="150" width="460" height="8" as="geometry" />
+          <mxGeometry y="140" width="460" height="8" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-4" value="-monitorExpiryDates(medicationID):&amp;nbsp;boolean&lt;br&gt;-updateMedicationInfo(medicationName, medicationDosageForm, medicationExpirationDate,medicationSideEffects, medicationInteractions):&amp;nbsp;void&lt;br&gt;-reportMedication(medicationID):&amp;nbsp;void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="cFKn5J2XUhD-Bvyqx_Qe-1" vertex="1">
-          <mxGeometry y="158" width="460" height="82" as="geometry" />
+          <mxGeometry y="148" width="460" height="82" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-5" value="Inventory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-110" width="250" height="140" as="geometry" />
@@ -92,7 +92,7 @@
           <mxGeometry y="148" width="265" height="122" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-30" value="Patient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-630" width="350" height="250" as="geometry" />
+          <mxGeometry x="320" y="-630" width="350" height="240" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-31" value="-patientID: int&lt;br style=&quot;font-size: 14px;&quot;&gt;-patientName:&amp;nbsp;varchar&lt;br style=&quot;font-size: 14px;&quot;&gt;-patientTel: varchar&lt;br style=&quot;font-size: 14px;&quot;&gt;-patientAddress: varchar&lt;br style=&quot;font-size: 14px;&quot;&gt;-password: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="cFKn5J2XUhD-Bvyqx_Qe-30" vertex="1">
           <mxGeometry y="26" width="350" height="94" as="geometry" />
@@ -101,7 +101,7 @@
           <mxGeometry y="120" width="350" height="8" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-33" value="+register(patientID, patientName, patientTel, patientAddress, password): void&lt;br&gt;+login(patientID,&amp;nbsp; password): boolean&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;+logout(patientID):&amp;nbsp;void&lt;br&gt;-updatePatientInfo(patientID, newPatientName, newPatientTel,&amp;nbsp; newPatientAddress, newPassword):&amp;nbsp;void&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="cFKn5J2XUhD-Bvyqx_Qe-30" vertex="1">
-          <mxGeometry y="128" width="350" height="122" as="geometry" />
+          <mxGeometry y="128" width="350" height="112" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-36" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="480" y="-380" width="30" height="30" as="geometry" />
