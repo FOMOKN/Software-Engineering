@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T18:57:58.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="-lLpAoTLV0dn-65ForbN" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T18:59:11.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="fhphC0hdsFL4bW7M5YWx" version="22.1.11" type="github">
   <diagram name="第 1 页" id="glwmrZvW_cPcXZDuryvU">
-    <mxGraphModel dx="830" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1811" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,10 +226,10 @@
           <mxGeometry x="1050" y="590" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5uU7WOAQapwXrngMiJ4O-12" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Hospital Managers&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="767" width="30" height="60" as="geometry" />
+          <mxGeometry x="450" y="760" width="30" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5uU7WOAQapwXrngMiJ4O-13" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 13px;&quot;&gt;System Operators&lt;/font&gt;&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="770" y="767" width="30" height="60" as="geometry" />
+          <mxGeometry x="770" y="767" width="30" height="33" as="geometry" />
         </mxCell>
         <mxCell id="5uU7WOAQapwXrngMiJ4O-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5uU7WOAQapwXrngMiJ4O-23" target="5uU7WOAQapwXrngMiJ4O-7" edge="1">
           <mxGeometry relative="1" as="geometry">
