@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T08:06:56.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="sEMXmLRHXPL_O-dxdol0" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T08:07:54.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="x9MFbgDYSAM3bdRCYULN" version="22.1.11" type="github">
   <diagram name="第 1 页" id="IFkGXs1P1i4UGobIEqxa">
     <mxGraphModel dx="2341" dy="1496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
           <mxGeometry x="1090" y="130" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-55" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="930" y="87.31" width="40" height="30" as="geometry" />
+          <mxGeometry x="930" y="100" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cFKn5J2XUhD-Bvyqx_Qe-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="cFKn5J2XUhD-Bvyqx_Qe-9" target="cFYMwrhWfDiPG1Qy6Kb4-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -183,7 +183,7 @@
           <mxGeometry y="194" width="430" height="166" as="geometry" />
         </mxCell>
         <mxCell id="cFYMwrhWfDiPG1Qy6Kb4-40" value="Prescription" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.6875;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="300" y="-320" width="940" height="429.9975" as="geometry" />
+          <mxGeometry x="300" y="-320" width="940" height="419.9975" as="geometry" />
         </mxCell>
         <mxCell id="cFYMwrhWfDiPG1Qy6Kb4-41" value="-prescriptionID : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="cFYMwrhWfDiPG1Qy6Kb4-40">
           <mxGeometry y="24.6875" width="940" height="25" as="geometry" />
@@ -231,7 +231,7 @@
           <mxGeometry y="354.9975" width="940" height="25" as="geometry" />
         </mxCell>
         <mxCell id="cFYMwrhWfDiPG1Qy6Kb4-56" value="+deletePrescription(int prescriptionID) : Boolean&#xa;+refusePrescription(int prescriptionID): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="cFYMwrhWfDiPG1Qy6Kb4-40">
-          <mxGeometry y="379.9975" width="940" height="50" as="geometry" />
+          <mxGeometry y="379.9975" width="940" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
