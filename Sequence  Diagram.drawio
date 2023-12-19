@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T08:08:33.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ccPai2uAAVEwRdOIEl1B" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T09:01:46.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="N2Twum52KoJyvqL_Hjo_" version="22.1.11" type="github">
   <diagram name="第 1 页" id="NIWxXK1TMyFCqn1yiirt">
     <mxGraphModel dx="2165" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -45,10 +45,23 @@
           <mxGeometry x="320" y="150" width="20" height="590" as="geometry" />
         </mxCell>
         <mxCell id="16olr8pQFl9PobuFe9gn-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="16olr8pQFl9PobuFe9gn-15" vertex="1">
-          <mxGeometry x="5" y="60" width="10" height="130" as="geometry" />
+          <mxGeometry x="5" y="100" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="16olr8pQFl9PobuFe9gn-58" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="16olr8pQFl9PobuFe9gn-15" vertex="1">
           <mxGeometry x="5" y="470" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2UrNFcCKKHaaaake2rj-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="16olr8pQFl9PobuFe9gn-15">
+          <mxGeometry x="5" y="60" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k2UrNFcCKKHaaaake2rj-3" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="16olr8pQFl9PobuFe9gn-15" source="k2UrNFcCKKHaaaake2rj-2" target="k2UrNFcCKKHaaaake2rj-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="65" as="sourcePoint" />
+            <mxPoint x="110" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="65" />
+              <mxPoint x="110" y="75" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="16olr8pQFl9PobuFe9gn-17" value="Pharmacist" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="285" y="120" width="90" height="30" as="geometry" />
@@ -69,6 +82,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="240" as="sourcePoint" />
             <mxPoint x="600" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="335" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="16olr8pQFl9PobuFe9gn-50" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Alt&lt;/b&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=0;collapsible=0;width=170;" parent="1" vertex="1">
@@ -144,10 +160,10 @@
             <mxPoint x="300" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X-7Eh11GXdFOkQO-dDWl-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;getPrescription()&lt;/span&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="16olr8pQFl9PobuFe9gn-18" target="16olr8pQFl9PobuFe9gn-19" edge="1">
+        <mxCell id="X-7Eh11GXdFOkQO-dDWl-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;getPrescription()&lt;/span&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="16olr8pQFl9PobuFe9gn-18" target="k2UrNFcCKKHaaaake2rj-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="15" y="225" as="sourcePoint" />
-            <mxPoint x="155" y="225" as="targetPoint" />
+            <mxPoint x="290" y="215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="16olr8pQFl9PobuFe9gn-40" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="16olr8pQFl9PobuFe9gn-34" target="16olr8pQFl9PobuFe9gn-38" edge="1">
@@ -168,6 +184,9 @@
             <mxPoint x="80" y="530" as="sourcePoint" />
             <mxPoint x="160" y="530" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="k2UrNFcCKKHaaaake2rj-5" value="checkPayment()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
