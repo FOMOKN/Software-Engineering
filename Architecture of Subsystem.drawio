@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T05:58:50.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Rzx8lEoAS-5xWxW3gc-V" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T06:37:31.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="HgdMkb21R7LcfMbAFJQp" version="22.1.11" type="github">
   <diagram name="第 1 页" id="69Trldqz50zGUkP1dT_B">
     <mxGraphModel dx="1172" dy="1496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1030,16 +1030,13 @@
           <mxGeometry y="43.8" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dxrn4xaeTAbZIls_48V2-289" value="&lt;&lt;interface&gt;&gt;&#xa;IAppointmentManagement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=43.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;swimlaneLine=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1629" y="342.2" width="306" height="173.8" as="geometry" />
+          <mxGeometry x="1629" y="342.2" width="351" height="103.8" as="geometry" />
         </mxCell>
-        <mxCell id="Dxrn4xaeTAbZIls_48V2-290" value="+createAppointment(int patientID, int doctorID,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;DateTime appointmentTime):&amp;nbsp;Boolean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="Dxrn4xaeTAbZIls_48V2-289">
-          <mxGeometry y="43.8" width="306" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Dxrn4xaeTAbZIls_48V2-291" value="+rescheduleAppointment(int appointmentID, &lt;br style=&quot;font-size: 14px;&quot;&gt;Date appointmentTime):&amp;nbsp;Boolean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="Dxrn4xaeTAbZIls_48V2-289">
-          <mxGeometry y="93.8" width="306" height="50" as="geometry" />
+        <mxCell id="Dxrn4xaeTAbZIls_48V2-291" value="+getAppointmentsByDoctor(int doctorID):List[Appointment]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="Dxrn4xaeTAbZIls_48V2-289">
+          <mxGeometry y="43.8" width="351" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dxrn4xaeTAbZIls_48V2-292" value="+cancelAppointment(int appointmentID):&amp;nbsp;Boolean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="Dxrn4xaeTAbZIls_48V2-289">
-          <mxGeometry y="143.8" width="306" height="30" as="geometry" />
+          <mxGeometry y="73.8" width="351" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dxrn4xaeTAbZIls_48V2-293" value="&lt;&lt;interface&gt;&gt;&#xa;IPatientRecords" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=43.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="1629" y="610" width="275" height="143.8" as="geometry" />
@@ -1140,10 +1137,10 @@
             <mxPoint x="1946.8300000000004" y="165.0200000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dxrn4xaeTAbZIls_48V2-320" value="uses" style="startArrow=none;endArrow=open;endSize=12;entryX=-0.003;entryY=0.904;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dxrn4xaeTAbZIls_48V2-164" target="Dxrn4xaeTAbZIls_48V2-290">
+        <mxCell id="Dxrn4xaeTAbZIls_48V2-320" value="uses" style="startArrow=none;endArrow=open;endSize=12;entryX=-0.003;entryY=0.904;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dxrn4xaeTAbZIls_48V2-164">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1410" y="510" as="sourcePoint" />
-            <mxPoint x="1630" y="190" as="targetPoint" />
+            <mxPoint x="1627.9860000000003" y="431.2000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Dxrn4xaeTAbZIls_48V2-321" value="" style="startArrow=none;endArrow=block;endSize=16;endFill=0;exitX=-0.093;exitY=0.303;entryX=1.02;entryY=0.046;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dxrn4xaeTAbZIls_48V2-195" target="Dxrn4xaeTAbZIls_48V2-291">
