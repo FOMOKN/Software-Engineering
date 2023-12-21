@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T10:30:08.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="oD6_boRLpFO5GlHBg5Rb" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T10:54:48.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="GVx_dU0vRVyu5XwiTP1h" version="22.1.11" type="github">
   <diagram name="第 1 页" id="csIow9575Tld--xzEYRS">
-    <mxGraphModel dx="2490" dy="2250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1423" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,7 +359,7 @@
         <mxCell id="alAaikOyowK1My11YDW3-112" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="2388.5" y="1007.5" width="95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="alAaikOyowK1My11YDW3-113" value="PrescriptionManagement" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="alAaikOyowK1My11YDW3-113" value="PrescriptionSystem" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2372" y="1027" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="alAaikOyowK1My11YDW3-114" value="" style="html=1;rounded=0;direction=south;" parent="1" vertex="1">
@@ -409,7 +409,7 @@
         <mxCell id="alAaikOyowK1My11YDW3-126" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2388.5" y="1222.5" width="95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="alAaikOyowK1My11YDW3-127" value="InventoryManagement" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="alAaikOyowK1My11YDW3-127" value="InventorySystem" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2372" y="1247" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="alAaikOyowK1My11YDW3-128" value="" style="html=1;rounded=0;direction=south;" parent="1" vertex="1">
@@ -1479,7 +1479,7 @@
         <mxCell id="YUFPJ4VoWHp7NJ7o-p_t-24" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2385" y="1370" width="95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YUFPJ4VoWHp7NJ7o-p_t-25" value="SupplyChainManagement" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+        <mxCell id="YUFPJ4VoWHp7NJ7o-p_t-25" value="SupplyChainSystem" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2343" y="1390" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="alAaikOyowK1My11YDW3-333" value="" style="html=1;rounded=0;direction=south;" parent="1" vertex="1">
